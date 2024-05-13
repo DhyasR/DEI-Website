@@ -8,7 +8,7 @@
 @section('content')
     <header class="header">
 
-        <a href="" class="logo">Logo</a>
+        <img src="../../resources/images/logo.png" alt="logo" id="logo">
 
         <input type="checkbox" id="check">
         <label for="check" class="icons">
