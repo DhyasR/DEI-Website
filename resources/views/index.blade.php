@@ -6,26 +6,23 @@
 @endsection
 
 @section('content')
-    <header class="header">
+    <div class="content">
 
-        <img src="../../resources/images/logo.png" alt="logo" id="logo">
+        <div class="text">
 
-        <input type="checkbox" id="check">
-        <label for="check" class="icons">
+            <h1>Digitalize your Bussiness, Empower your Growth with DigPro</h1>
+            <p>DIGPRO adalah mitra digital bagi UMKM, menyediakan solusi handal dengan kerjasama penyedia layanan website,
+                platform pembayaran, asosiasi UMKM, dan influencer lokal. Fokusnya adalah meningkatkan penjualan, membangun
+                reputasi merek, meningkatkan efisiensi, dan memperluas jangkauan pasar untuk UMKM, membantu mereka sukses
+                dalam era digital. </p>
 
-            <i class='bx bx-menu' id="open-menu"></i>
-            <i class='bx bx-x' id="close-menu"></i>
+        </div>
 
-        </label>
+        <div class="image">
 
-        <nav class="navbar">
+            <img src="../../resources/images/logo.png" alt="">
 
-            <a href="" style="--i:0">Home</a>
-            <a href="" style="--i:1">About</a>
-            <a href="" style="--i:2">Services</a>
-            <a href="" style="--i:3">Contact</a>
+        </div>
 
-        </nav>
-
-    </header>
+    </div>
 @endsection

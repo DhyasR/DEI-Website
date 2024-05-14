@@ -59,7 +59,7 @@ body {
 }
 
 #logo {
-    width: 5rem;
+    width: 7rem;
 }
 
 .navbar a {
@@ -81,6 +81,22 @@ body {
     color: #fff;
     cursor: pointer;
     display: none;
+}
+
+.content {
+    display: flex;
+    padding: 20% 13%;
+}
+
+.text {
+    color: #fff;
+    width: fit-content;
+    margin-left: 10%;
+}
+
+.text h1 {
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 /* BREAKPOINTS */
